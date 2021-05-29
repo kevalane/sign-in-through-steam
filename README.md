@@ -1,1 +1,3 @@
-Code for the medium post on signing in through steam.
+# Sign in through Steam using NodeJS
+
+Code for the medium post with the same title.
