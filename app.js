@@ -1,11 +1,11 @@
-var express = require('express');
-var passport = require('passport');
-var session = require('express-session');
-var passportSteam = require('passport-steam');
-var SteamStrategy = passportSteam.Strategy;
-var app = express();
+const express = require('express');
+const passport = require('passport');
+const session = require('express-session');
+const passportSteam = require('passport-steam');
+const SteamStrategy = passportSteam.Strategy;
+const app = express();
 
-var port = 3000;
+const port = 3000;
 
 // Required to get data from user for sessions
 passport.serializeUser((user, done) => {
