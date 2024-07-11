@@ -1,8 +1,17 @@
 {
+  "name": "sign-in-through-steam",
+  "version": "1.0.0",
+  "description": "Code for the medium post with the same title.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2",
-    "express-session": "^1.17.2",
-    "passport": "^0.6.0",
-    "passport-steam": "^1.0.17"
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "steam-signin": "^1.0.3"
   }
 }
